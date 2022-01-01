@@ -3,7 +3,7 @@ function simplDimpl() {
     audio.play();
 	setInterval(() => {
 		glent.src = images[getRandomInt(images.length)]
-	}, 100);
+	}, 250);
 }
 
 function getRandomInt(max) {
